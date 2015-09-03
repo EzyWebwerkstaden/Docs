@@ -14,5 +14,6 @@ Contents:
    :maxdepth: 3
    
    naming
+   git
 
 If you want something changed, Please press the button "Edit on github" and make a pull request 
