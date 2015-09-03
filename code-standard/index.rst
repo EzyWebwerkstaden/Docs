@@ -3,8 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Ezy Code's documentation!
+Welcome to Ezy Code!
 ====================================
+
+Here will be all resources for code standard and structure.
 
 Contents:
 
@@ -13,11 +15,4 @@ Contents:
    
    naming
 
-
-Indices and tabless 
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
+If you want something changed, Please press the button "Edit on github" and make a pull request 
