@@ -9,10 +9,12 @@ Welcome to Ezy Code's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
+   
+   naming
 
 
-Indices and tabless
+Indices and tabless 
 ==================
 
 * :ref:`genindex`
