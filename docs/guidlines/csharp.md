@@ -57,7 +57,7 @@ public String TrimString(String s) {
 https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/PasswordHasher.cs
 
 ```c#
- // generate a 128-bit salt using a secure PRNG
+            // generate a 128-bit salt using a secure PRNG
             string password = Console.ReadLine();
             byte[] salt = new byte[128 / 8];
             using (var rng = RandomNumberGenerator.Create())
