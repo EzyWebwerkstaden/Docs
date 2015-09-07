@@ -2,4 +2,3 @@
 
 För att köra docen localt.
 
-sphinx-autobuild . _build
