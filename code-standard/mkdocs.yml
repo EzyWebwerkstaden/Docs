@@ -1,4 +1,10 @@
 site_name: Ezy Code
 pages:
  - Home: index.md
+ - Guidlines: 
+   - 'C#' : 'guidlines/csharp.md'
+   - 'Javascript' : 'guidlines/javascript.md'
+   - 'Html & Css' : 'guidlines/html-css.md'
+   - 'Git' : 'guidlines/git.md'
+   - 'N2 CMS': 'guidlines/n2.md'
 theme: readthedocs
