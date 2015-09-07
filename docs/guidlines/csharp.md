@@ -52,3 +52,8 @@ public String TrimString(String s) {
         : s.Trim();
 }
 ```
+
+### Hashing
+https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/PasswordHasher.cs
+### Encryption
+https://github.com/aspnet/DataProtection
