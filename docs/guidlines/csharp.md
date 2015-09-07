@@ -57,3 +57,6 @@ public String TrimString(String s) {
 https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/PasswordHasher.cs
 ### Encryption
 https://github.com/aspnet/DataProtection
+http://docs.asp.net/en/latest/security/data-protection/using-data-protection.html
+https://www.nuget.org/packages/Microsoft.AspNet.DataProtection/1.0.0-beta7
+https://www.nuget.org/packages/Microsoft.AspNet.DataProtection.Interfaces/1.0.0-beta4
