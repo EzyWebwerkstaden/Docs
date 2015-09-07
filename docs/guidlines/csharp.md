@@ -12,17 +12,17 @@ The most general guideline is that we use all the VS default settings in terms o
 
 The `var` keyword is to be used as much as the compiler will allow. For example, these are correct:
 
-```c#
-var fruit = "Lychee";
-var fruits = new List<Fruit>();
-var flavor = fruit.GetFlavor();
-string fruit = null; // can't use "var" because the type isn't known (though you could do (string)null, don't!)
-const string expectedName = "name"; // can't use "var" with const
+```csharp   
+    var fruit = "Lychee";
+    var fruits = new List<Fruit>();
+    var flavor = fruit.GetFlavor();
+    string fruit = null; // can't use "var" because the type isn't known (though you could do (string)null, don't!)
+    const string expectedName = "name"; // can't use "var" with const
 ```
 
 The following are incorrect:
 
-```c#
+```csharp
 string fruit = "Lychee";
 List<Fruit> fruits = new List<Fruit>();
 FruitFlavor flavor = fruit.GetFlavor();
@@ -33,19 +33,18 @@ FruitFlavor flavor = fruit.GetFlavor();
 
 When using a type that has a C# keyword the keyword is used in favor of the .NET type name. For example, these are correct:
 
-```c#
-public string TrimString(string s) {
+```csharp
+    public string TrimString(string s) {
     return string.IsNullOrEmpty(s)
         ? null
         : s.Trim();
-}
-
-var intTypeName = nameof(Int32); // can't use C# type keywords with nameof
+    }
+    var intTypeName = nameof(Int32); // can't use C# type keywords with nameof
 ```
 
 The following are incorrect:
 
-```c#
+```csharp
 public String TrimString(String s) {
     return String.IsNullOrEmpty(s)
         ? null
@@ -56,9 +55,11 @@ public String TrimString(String s) {
 ### Hashing
 https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/PasswordHasher.cs
 
-```c#
-            // generate a 128-bit salt using a secure PRNG
+We will be using the Pbkdf2 hashing.
+
+```csharp
             string password = Console.ReadLine();
+            // generate a 128-bit salt using a secure PRNG
             byte[] salt = new byte[128 / 8];
             using (var rng = RandomNumberGenerator.Create())
             {
@@ -77,8 +78,11 @@ https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/Passwo
 ```
 
 ### Encryption
+
+For encryption we will use Aes256 with salt.
+
 https://gist.github.com/JonHaywood/996aa010e9a3858339c3#file-aes256encryptionservice
-```c#
+```csharp
             var service = new Aes256EncryptionService();
             var key = service.GenerateKey();
 
