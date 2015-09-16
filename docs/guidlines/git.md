@@ -14,3 +14,13 @@ In general:
 
 * `master` has the code for the latest release to staging.
 * `dev` has the code that is being worked on but not yet released. This is the branch into which devs normally submit pull requests and merge changes into.
+
+### Commit Message
+
+When doing an commit ther should always be an TAG
+
+- [FIX] For an bugfix 
+- [FEATURE] for something new
+- [REFACTOR] for refactoring
+- [TEST] when just editing tests
+

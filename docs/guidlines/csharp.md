@@ -53,40 +53,12 @@ public String TrimString(String s) {
 ```
 
 ### Hashing
-https://github.com/aspnet/Identity/blob/dev/src/Microsoft.AspNet.Identity/PasswordHasher.cs
-
 We will be using the Pbkdf2 hashing.
-
-```csharp
-            string password = Console.ReadLine();
-            // generate a 128-bit salt using a secure PRNG
-            byte[] salt = new byte[128 / 8];
-            using (var rng = RandomNumberGenerator.Create())
-            {
-                rng.GetBytes(salt);
-            }
-            Console.WriteLine($"Salt: {Convert.ToBase64String(salt)}");
-
-            // derive a 256-bit subkey (use HMACSHA1 with 10,000 iterations)
-            string hashed = Convert.ToBase64String(KeyDerivation.Pbkdf2(
-                password: password,
-                salt: salt,
-                prf: KeyDerivationPrf.HMACSHA1,
-                iterationCount: 10000,
-                numBytesRequested: 256 / 8));
-            Console.WriteLine($"Hashed: {hashed}");
-```
+This is impelemented in our Ezy.Security nuget. (TODO: Link to nuget)
+The source code can be found here: [Ezy.Security on Github](https://github.com/EzyWebwerkstaden/Security)
 
 ### Encryption
 
 For encryption we will use Aes256 with salt.
-
-https://gist.github.com/JonHaywood/996aa010e9a3858339c3#file-aes256encryptionservice
-```csharp
-            var service = new Aes256EncryptionService();
-            var key = service.GenerateKey();
-
-            var plainText = password;
-            var encryptedData = service.EncryptStringToBytes(key, plainText);
-            var decryptedData = service.DecryptBytesToString(key, encryptedData);
-```
+This is impelemented in our Ezy.Security nuget. (TODO: Link to nuget) 
+The source code can be found here: [Ezy.Security on Github](https://github.com/EzyWebwerkstaden/Security)
