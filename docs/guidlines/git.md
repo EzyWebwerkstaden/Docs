@@ -17,10 +17,16 @@ In general:
 
 ### Commit Message
 
-When doing an commit ther should always be an TAG
+When doing an commit ther should always be an TAG and if there is an item associated to the commit it should also be added.
 
 - [FIX] For an bugfix 
 - [FEATURE] for something new
 - [REFACTOR] for refactoring
 - [TEST] when just editing tests
+- TODO: add more.
+
+So en example commit should look like this: `PRJ-1 [FIX] made changes to web.config so it's correct`
+
+
+
 
