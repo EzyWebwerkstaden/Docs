@@ -6,6 +6,7 @@ The most general guideline is that we use all the VS default settings in terms o
 2. Use `_camelCase` for private members
 3. Avoid `this.` unless absolutely necessary
 4. Always specify member visiblity, even if it's the default (i.e. `private string _foo;` not `string _foo;`)
+5. Always use the full word not abbrivations.
 
 
 ### Usage of the var keyword
