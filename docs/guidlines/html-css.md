@@ -13,7 +13,7 @@ Also we should always avoid in-line css and use css files for all CSS.
 We will always name our classes with lowercase.
 
 for example:
-`#my-button { ... }` 
+`.my-button { ... }` 
 
 #### Semantic naming
 

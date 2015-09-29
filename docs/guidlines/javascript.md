@@ -41,5 +41,7 @@ And then we can bind it with knockout.
 
 var viewModel = ezy.page.mycomponent.init(settings);
 
-ko.applyBindings(viewModel);
+var element = document.getElementById("Container"); //Scope the bindings to one container element
+
+ko.applyBindings(viewModel, element);
 ```
