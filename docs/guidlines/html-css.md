@@ -17,7 +17,8 @@ for example:
 
 #### Semantic naming
 
-We should name our classes on what they do and not a color or what css it contains. For example `.confir-button` is fine , but not `.red-button`
+We should name our classes on what they do and not a color or what css it contains. For example  
+ `.confirm-button` is fine , but not `.blue-button`
 
 
 

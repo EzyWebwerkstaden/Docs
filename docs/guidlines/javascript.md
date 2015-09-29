@@ -34,3 +34,12 @@ ezy.page.mycomponent = function(){
 	 return pub;
 	}
 ```
+
+And then we can bind it with knockout.
+
+```javascript
+
+var viewModel = ezy.page.mycomponent.init(settings);
+
+ko.applyBindings(viewModel);
+```
