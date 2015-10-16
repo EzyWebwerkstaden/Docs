@@ -45,3 +45,8 @@ var element = document.getElementById("Container"); //Scope the bindings to one 
 
 ko.applyBindings(viewModel, element);
 ```
+
+## Date handling
+TODO: write more about this.
+
+But http://momentjs.com/ och http://momentjs.com/timezone/
