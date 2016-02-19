@@ -21,9 +21,12 @@ When doing an commit ther should always be an TAG and if there is an item associ
 - [FEATURE] for something new
 - [REFACTOR] for refactoring
 - [TEST] when just editing tests
-- TODO: add more.
+- [TEMP] when testing temporary changes
+- [SUBMODULE] only updatating submodule
 
-So en example commit should look like this: `PRJ-1 [FIX] made changes to web.config so it's correct`
+So en example commit should look like this:
+`PRJ-1 [FIX] made changes to web.config so it's correct`  
+`PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
 
 
 
