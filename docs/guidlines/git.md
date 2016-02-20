@@ -17,16 +17,17 @@ In general:
 
 When doing an commit ther should always be an TAG and if there is an item associated to the commit it should also be added.
 
-- [FIX] For an bugfix 
+- [FIX] For an bugfix
 - [FEATURE] for something new
 - [REFACTOR] for refactoring
 - [TEST] when just editing tests
 - [TEMP] when testing temporary changes
-- [SUBMODULE] only updatating submodule
+- [SUBMODULE] when only updating submodule
 
 So en example commit should look like this:
-`PRJ-1 [FIX] made changes to web.config so it's correct`  
-`PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
+- `PRJ-1 [FIX] Made changes to web.config so it's correct`
+- `PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
+- `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code
 
 
 
