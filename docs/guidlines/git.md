@@ -31,13 +31,15 @@ We are using the following [TAG]'s.
 - [TEST] when just editing tests
 - [TEMP] when testing temporary changes
 - [SUBMODULE] when only updating submodule
+- [CONFIG] used for web.config / app.config or other configuration changes
 
 So en example commit should look like this:
 - `PRJ-1 [FIX] Made changes to web.config so it's correct`
 - `PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
 - `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code`
 
-TODO: Make more examples and also make better messges for the example messages.
+Here is a good real-world example.  
+![](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
 
 
 
