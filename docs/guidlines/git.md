@@ -15,7 +15,15 @@ In general:
 
 ### Commit Message
 
-When doing an commit ther should always be an TAG and if there is an item associated to the commit it should also be added.
+An commit message should always contain. ITEM-X [TAG] **message**.
+
+For the commit **message** we have the following guidlines.
+- a shorter description of what is done
+- A summary of the intent of the code (Describe WHY and WHAT in a clear language)
+- If the description describes several items it's preferable to split those in several commits
+
+
+We are using the following [TAG]'s.
 
 - [FIX] For an bugfix
 - [FEATURE] for something new
@@ -27,8 +35,9 @@ When doing an commit ther should always be an TAG and if there is an item associ
 So en example commit should look like this:
 - `PRJ-1 [FIX] Made changes to web.config so it's correct`
 - `PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
-- `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code
+- `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code`
 
+TODO: Make more examples and also make better messges for the example messages.
 
 
 
