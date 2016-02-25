@@ -31,7 +31,7 @@ We are using the following [TAG]'s.
 - [TEST] when just editing tests
 - [TEMP] when testing temporary changes
 - [SUBMODULE] when only updating submodule
-- [CONFIG] used for web.config / app.config or other configuration changes
+- [CONFIG] When changing a config file or setting
 
 So en example commit should look like this:
 - `PRJ-1 [FIX] Made changes to web.config so it's correct`
