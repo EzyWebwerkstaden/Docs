@@ -23,6 +23,7 @@ When doing an commit ther should always be an TAG and if there is an item associ
 - [TEST] when just editing tests
 - [TEMP] when testing temporary changes
 - [SUBMODULE] when only updating submodule
+- [CONFIG] When changing a config file or setting
 
 So en example commit should look like this:
 - `PRJ-1 [FIX] Made changes to web.config so it's correct`
