@@ -39,7 +39,7 @@ So en example commit should look like this:
 - `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code`
 
 Here is a good real-world example.  
-![](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
+![Realworld](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
 
 
 
