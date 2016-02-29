@@ -8,7 +8,11 @@ In general a PR should be signed off (using the :shipit: `:shipit:` emoticon) by
 
 ### Branch strategy
 
+* Using the [Github workflow] (https://guides.github.com/introduction/flow/)
+
 In general:
+Use feature-branches as much as possible. When creating a branch it should start with the item number. 
+* `PRJ-1 **title**` this makes the branch and later the PR to be connected to the item in Jira.
 
 * `master` has the code for the latest release to staging.
 * `dev` has the code that is being worked on but not yet released. This is the branch into which devs normally submit pull requests and merge changes into.
