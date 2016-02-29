@@ -20,7 +20,9 @@ An commit message should always contain. ITEM-X [TAG] **message**.
 For the commit **message** we have the following guidlines.
 - a shorter description of what is done
 - A summary of the intent of the code (Describe WHY and WHAT in a clear language)
-- If the description describes several items it's preferable to split those in several commits
+
+Also a good practies if your using the shell. Associate your favorite text editors with Git. Cause then if you don't use  `-m`
+You will get up a blank file where you can easly structure your commit message in your editor of choose. https://help.github.com/articles/associating-text-editors-with-git/
 
 
 We are using the following [TAG]'s.
