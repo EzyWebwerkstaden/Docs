@@ -14,12 +14,13 @@ After a PR is merged it should be deleted.
 
 **In general:**
 Use feature-branches as much as possible. 
-The pattern is `{fix, feature or refactor}/{Jira item number}/{title}`
-* {fix, feature or refactor} prefixing a branch makes it easier to search and filter among branches.
+The pattern is `{epic or type of branch (fix,feature or refactor)}/{Jira item number}/{title}`
+* {epic or type of branch (fix,feature or refactor} prefixing a branch makes it easier to search and filter among branches.
 * {Jira item number} makes the branch and PR be integrated with Jira.
 * {title} use short title as possible, whitespace should be replaced with a dash.
 
-* `feature/fa-313/xsl-embedded-resource`
+* `paymentflow/fa-313/xsl-embedded-resource` with epic
+* `feature/fa-338/free-priority-boarding` with type of branch
 * `master` has the code for the latest release to staging.
 * `dev` has the code that is being worked on but not yet released. This is the branch into which devs normally submit pull requests and merge changes into.
 
