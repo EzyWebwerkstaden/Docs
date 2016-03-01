@@ -6,14 +6,20 @@ The advantages are numerous: improving code quality, more visibility on changes 
 
 In general a PR should be signed off (using the :shipit: `:shipit:` emoticon) by any developer. As long it's not your self signing it off.
 
+After a PR is merged it should be deleted.
+
 ### Branch strategy
 
 * Using the [Github workflow] (https://guides.github.com/introduction/flow/)
 
-In general:
-Use feature-branches as much as possible. When creating a branch it should start with the item number. 
-* `PRJ-1 **title**` this makes the branch and later the PR to be connected to the item in Jira.
+**In general:**
+Use feature-branches as much as possible. 
+The pattern is `{fix, feature or refactor}/{Jira item number}/{title}`
+* {fix, feature or refactor} prefixing a branch makes it easier to search and filter among branches.
+* {Jira item number} makes the branch and PR be integrated with Jira.
+* {title} use short title as possible, whitespace should be replaced with a dash.
 
+* `feature/fa-313/xsl-embedded-resource`
 * `master` has the code for the latest release to staging.
 * `dev` has the code that is being worked on but not yet released. This is the branch into which devs normally submit pull requests and merge changes into.
 
