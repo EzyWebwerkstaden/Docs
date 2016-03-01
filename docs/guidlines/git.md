@@ -20,7 +20,7 @@ The pattern is `{epic or type of branch (fix,feature or refactor)}/{Jira item nu
 * _{Jira item number}_ makes the branch and PR be integrated with Jira.  
 * _{title}_ use short title as possible, whitespace should be replaced with a dash.  
 
-**Branch explanation**
+**Branch explanation**  
 * `paymentflow/fa-313/xsl-embedded-resource` with epic
 * `feature/fa-338/free-priority-boarding` with type of branch
 * `master` has the code for the latest release to staging.
