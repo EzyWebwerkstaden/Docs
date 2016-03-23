@@ -47,6 +47,7 @@ We are using the following [TAG]'s.
 - [TEMP] when testing temporary changes
 - [SUBMODULE] when only updating submodule
 - [CONFIG] When changing a config file or setting
+- [AUTO] Automatic changes made by IDE settings or a script 
 
 So en example commit should look like this:
 - `PRJ-1 [FIX] Made changes to web.config so it's correct`
