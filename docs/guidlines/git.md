@@ -17,18 +17,18 @@ In general:
 
 When doing an commit ther should always be an TAG and if there is an item associated to the commit it should also be added.
 
-- [FIX] For an bugfix
-- [FEATURE] for something new
-- [REFACTOR] for refactoring
-- [TEST] when just editing tests
-- [TEMP] when testing temporary changes
-- [SUBMODULE] when only updating submodule
-- [CONFIG] When changing a config file or setting
+- :bug: `:bug:` For an bugfix
+- :gift: `:gift:` for something new
+- :wrench: `:wrench:` for refactoring
+- :construction: `:construction:` when just editing tests
+- :recycle: `:recycle:` when testing temporary changes
+- :feet: `:feet:` when only updating submodule
+- :memo: `:memo:` When changing a config file or setting
 
 So en example commit should look like this:
-- `PRJ-1 [FIX] Made changes to web.config so it's correct`
-- `PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
-- `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code
+- `PRJ-1 :bug: Made changes to web.config so it's correct`
+- `PRJ-1 :feet: Updated ezyRadixxBase`
+- `PRJ-1 :recycle: Made changes to web.config in order to test SSR code
 
 
 
