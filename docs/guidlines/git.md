@@ -52,8 +52,8 @@ We are using the following [TAG]'s.
 
 So en example commit should look like this:
 - `PRJ-1 :bug: Made changes to web.config so it's correct`
-- `PRJ-1 :feet: Updated ezyRadixxBase`
-- `PRJ-1 :recycle: Made changes to web.config in order to test SSR code`
+- `PRJ-1 :chains: Updated ezyRadixxBase`
+- `PRJ-1 :gear: Made changes to web.config in order to test SSR code`
 
 Here is a good real-world example.  
 ![Realworld](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
