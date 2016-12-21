@@ -41,13 +41,14 @@ You will get up a blank file where you can easly structure your commit message i
 We are using the following [TAG]'s.
 
 - :bug: `:bug:` For an bugfix
-- :gift: `:gift:` for something new
-- :wrench: `:wrench:` for refactoring
-- :construction: `:construction:` when just editing tests
-- :recycle: `:recycle:` when testing temporary changes
-- :feet: `:feet:` when only updating submodule
-- :memo: `:memo:` When changing a config file or setting
-- :car: `:car:` Automatic changes made by IDE settings or a script 
+- :sparkles: `:gift:` for something new
+- :factory: `:factory:` for refactoring
+- :traffic_light: `:traffic_light:` when just editing tests
+- :construction: `:construction:` when testing temporary changes
+- :feet: `:chains:` when only updating submodule
+- :gear: `:gear:` When changing a config file or setting
+- :computer: `:computer:` Automatic changes made by IDE settings or a script 
+- :fire: `:fire:` Something hotfixed (pushed directly to master for example)
 
 So en example commit should look like this:
 - `PRJ-1 :bug: Made changes to web.config so it's correct`
