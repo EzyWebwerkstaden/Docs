@@ -41,11 +41,11 @@ You will get up a blank file where you can easly structure your commit message i
 We are using the following [TAG]'s.
 
 - :bug: `:bug:` For an bugfix
-- :sparkles: `:gift:` for something new
+- :sparkles: `:sparkles:` for something new
 - :factory: `:factory:` for refactoring
 - :traffic_light: `:traffic_light:` when just editing tests
 - :construction: `:construction:` when testing temporary changes
-- :feet: `:chains:` when only updating submodule
+- :chains: `:chains:` when only updating submodule
 - :gear: `:gear:` When changing a config file or setting
 - :computer: `:computer:` Automatic changes made by IDE settings or a script 
 - :fire: `:fire:` Something hotfixed (pushed directly to master for example)
