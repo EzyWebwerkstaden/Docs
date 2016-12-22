@@ -40,19 +40,20 @@ You will get up a blank file where you can easly structure your commit message i
 
 We are using the following [TAG]'s.
 
-- [FIX] For an bugfix
-- [FEATURE] for something new
-- [REFACTOR] for refactoring
-- [TEST] when just editing tests
-- [TEMP] when testing temporary changes
-- [SUBMODULE] when only updating submodule
-- [CONFIG] When changing a config file or setting
-- [AUTO] Automatic changes made by IDE settings or a script 
+- :bug: `:bug:` For an bugfix
+- :sparkles: `:sparkles:` for something new
+- :factory: `:factory:` for refactoring
+- :traffic_light: `:traffic_light:` when just editing tests
+- :construction: `:construction:` when testing temporary changes
+- :chains: `:chains:` when only updating submodule
+- :gear: `:gear:` When changing a config file or setting
+- :computer: `:computer:` Automatic changes made by IDE settings or a script 
+- :fire: `:fire:` Something hotfixed (pushed directly to master for example)
 
 So en example commit should look like this:
-- `PRJ-1 [FIX] Made changes to web.config so it's correct`
-- `PRJ-1 [SUBMODULE] Updated ezyRadixxBase`
-- `PRJ-1 [TEMP] Made changes to web.config in order to test SSR code`
+- `PRJ-1 :bug: Made changes to web.config so it's correct`
+- `PRJ-1 :chains: Updated ezyRadixxBase`
+- `PRJ-1 :gear: Made changes to web.config in order to test SSR code`
 
 Here is a good real-world example.  
 ![Realworld](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
