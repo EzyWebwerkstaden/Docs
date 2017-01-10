@@ -40,16 +40,16 @@ You will get up a blank file where you can easly structure your commit message i
 
 We are using the following [TAG]'s.
 
-- :bug: `:bug:` For an bugfix
-- :sparkles: `:sparkles:` for something new
-- :factory: `:factory:` for refactoring
-- :lipstick: `:lipstick:` for visual changes
-- :traffic_light: `:traffic_light:` when just editing tests
-- :construction: `:construction:` when testing temporary changes
-- :chains: `:chains:` when only updating submodule
-- :gear: `:gear:` When changing a config file or setting
-- :computer: `:computer:` Automatic changes made by IDE settings or a script 
-- :fire: `:fire:` Something hotfixed (pushed directly to master for example)
+- 🐛 `:bug:` For an bugfix
+- ✨ `:sparkles:` for something new
+- 🏭 `:factory:` for refactoring
+- 💄 `:lipstick:` for visual changes
+- 🚦 `:traffic_light:` when just editing tests
+- 🚧 `:construction:` when testing temporary changes
+- ⛓ `:chains:` when only updating submodule
+- ⚙ `:gear:` When changing a config file or setting
+- 💻 `:computer:` Automatic changes made by IDE settings or a script 
+- 🔥 `:fire:` Something hotfixed (pushed directly to master for example)
 
 So en example commit should look like this:
 - `PRJ-1 :bug: Made changes to web.config so it's correct`
