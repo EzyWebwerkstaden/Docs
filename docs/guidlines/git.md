@@ -50,6 +50,7 @@ We are using the following [TAG]'s.
 - ⚙ `:gear:` When changing a config file or setting
 - 💻 `:computer:` Automatic changes made by IDE settings or a script 
 - 🔥 `:fire:` Something hotfixed (pushed directly to master for example)
+- 🔈  ´:speaker:´ when adding logging
 
 So en example commit should look like this:
 - `PRJ-1 :bug: Made changes to web.config so it's correct`
