@@ -15,6 +15,11 @@ We will always name our classes with lowercase.
 for example:
 `.my-button { ... }` 
 
+Element id's should be camel cased. 
+
+for example:
+`#myButton { ... }` 
+
 #### Semantic naming
 
 We should name our classes on what they do and not a color or what css it contains. For example  
