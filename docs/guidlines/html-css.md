@@ -48,6 +48,7 @@ Use BEM when naming your CSS classes. There might be some resistance initially s
 http://getbem.com/introduction/
 
 Key advantages:
+
 - Avoid LESS nesting issues, where you have to recreate the same nesting in order to overwrite the styles.
 - Creates a more "modular" CSS structure, where you think of a components root node as the identifier
 - Makes it really clear and easy to figure out
@@ -60,11 +61,13 @@ Key advantages:
 - flat css structure and using classess-only for styling makes your css faster to apply by browsers.
 
 DO:
+
 - Try use one component-per-file approach
 - use `&--` in .less files to not clutter them with repeated prefixes.
 - make each BEM block unique and self-sufficient.
 
 DO NOT:
+
 - override modifiers on an unrelated block inside another block
 - make unnecessary parent elements when child can exist happily by itself.
 - create more than two levels of elements. There is only one 'element' level in BEM. Do `person__eye` instead of `person__head__eye`
