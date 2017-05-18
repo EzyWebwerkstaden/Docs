@@ -50,9 +50,25 @@ http://getbem.com/introduction/
 Key advantages:
 - Avoid LESS nesting issues, where you have to recreate the same nesting in order to overwrite the styles.
 - Creates a more "modular" CSS structure, where you think of a components root node as the identifier
-- Makes it really clear and easy to figure out where the current CSS is used
+- Makes it really clear and easy to figure out
+ - where the current CSS is used
+ - what does each BEM block contain
+ - the hierarchy of elements,
 - Minimizes conflicing class names, since all class names contain the root identifier.
-- Minimizes dependencies to specific DOM elements. Like instead of doing `.flight-info strong` (which forces the HTML structure to look a certain way), you should do `.flight-info__price`
+- Minimizes dependencies to specific DOM elements. Like instead of doing `.flight-info strong` (which forces the HTML structure to look a certain way), you should do `.flight-info__price`. This approach is somehow conflicting with typical usage of favourite grid systems (like bootstrap) where we do most styling & positioning by applying bootstrap classes directly on the HTML level. The way to still use bootstrap while coding the BEM-way is to reference `.strong` inside your `.flight-info__price` element. This requires however to have bootstrap sources available in .less files. As always, there are exceptions to the rules, like some cross-cutting concerns that will just work only when separate class is added in the html level. The example could be a `.caps` class (to capitalize font at specific place). As with everything, try to find a right balance - this is the toughest part though.
+- Due to strictly controlled scoping of elements and avoiding writing globally-available-css, we have less fear of refactoring the css. This implies less duplication of code, as when we don't fear refactoring, the less likely we're going to introduce duplication.
+- flat css structure and using classess-only for styling makes your css faster to apply by browsers.
+
+DO:
+- Try use one component-per-file approach
+- use `&--` in .less files to not clutter them with repeated prefixes.
+- make each BEM block unique and self-sufficient.
+
+DO NOT:
+- override modifiers on an unrelated block inside another block
+- make unnecessary parent elements when child can exist happily by itself.
+- create more than two levels of elements. There is only one 'element' level in BEM. Do `person__eye` instead of `person__head__eye`
+- make your compoments depenent on id, nor tag. Use classes **only** for styling inside your bloks.
 
 **Example 1**
 HTML (with some KnockoutJS):
