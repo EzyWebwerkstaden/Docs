@@ -1,0 +1,222 @@
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="noindex, nofollow">
+        <meta name="googlebot" content="noindex, nofollow">
+        <script type="text/javascript" src="https://rawgit.com/nicoespeon/gitgraph.js/develop/src/gitgraph.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://rawgit.com/nicoespeon/gitgraph.js/develop/src/gitgraph.css">
+
+        <style type="text/css">
+        </style>
+
+        <title>Ezy project flow</title>
+
+
+        <script type="text/javascript">
+          
+            //<![CDATA[
+            window.onload = function() {
+                /***********************
+                 *  CUSTOM TEMPLATES   *
+                 ***********************/
+
+                var myTemplateConfig = {
+                    colors: ["#009FE3", "#6633CC", "#F03443", "#e1001f", "darkred", "#FFC732", "#3498DA", "#213769", "#FEBE10", "#0C507C", "#C81072"], // branches colors, 1 per column
+                    branch: {
+                        lineWidth: 5,
+                        spacingX: 30
+                    },
+                    commit: {
+                        spacingY: -50,
+                        dot: {
+                            size: 12
+                        },
+                        message: {
+                            displayAuthor: false,
+                            displayBranch: true,
+                            displayHash: false,
+                            font: "normal 12pt Arial"
+                        },
+                        tooltipHTMLFormatter: function(commit) {
+                            return commit.message;
+                        }
+                    }
+                };
+                var myTemplate = new GitGraph.Template(myTemplateConfig);
+
+                /***********************
+                 *    INITIALIZATION   *
+                 ***********************/
+
+                var config = {
+                    template: myTemplate // could be: "blackarrow" or "metro" or `myTemplate` (custom Template object)
+                    //, mode: "compact"     // special compact mode : hide messages & compact graph
+                };
+                var gitGraph = new GitGraph(config);
+
+                /***********************
+                 * BRANCHS AND COMMITS *
+                 ***********************/
+
+                // Create branch named "master"
+                var Safair = gitGraph.branch("Safair");
+                Safair.commit("Go live 2013");
+
+                Safair.checkout();
+                Safair.commit("Developments and bugfixes");
+
+                // Create branch named "master"
+                Safair.checkout();
+                var Wingo = gitGraph.branch("Wingo");
+                Wingo.commit("Go live Oct 2016");
+
+                Safair.checkout();
+                Safair.commit("Member profile 2016");
+
+                Safair.checkout();
+                Safair.commit("Other large developments");
+
+                Wingo.checkout();
+                var AirBelgium = gitGraph.branch("AirBelgium");
+                AirBelgium.commit("Copy Wingo Dec 2016");
+
+                Wingo.checkout();
+                gitGraph.commit("Development and bugfixes");
+
+                AirBelgium.checkout();
+                var AirIndiaExpress = gitGraph.branch("AirIndiaExpress");
+                AirIndiaExpress.commit("Copy AirBelgium 22 Mar 2017");
+
+                AirBelgium.checkout();
+                var FlyAfrica = gitGraph.branch("FlyAfrica");
+                FlyAfrica.commit("Copy AirBelgium 24 Mar 2017");
+
+                AirIndiaExpress.checkout();
+                Wingo.merge(AirIndiaExpress, "Big merge from Wingo 11 May 2017");
+
+                AirIndiaExpress.checkout();
+                var FastJet = gitGraph.branch("FastJet");
+                FastJet.commit("Copy AirIndiaExpress 23 May 2017");
+                FastJet.commit("Rename folder structure May 2017");
+
+                FastJet.checkout();
+                var AirChoiceOne = gitGraph.branch("AirChoiceOne");
+                AirChoiceOne.commit("Copy FastJet 2 June 2017");
+
+                FastJet.checkout();
+                var ContourAirlines = gitGraph.branch("ContourAirlines");
+                ContourAirlines.commit("Copy FastJet 2 June 2017");
+
+                Safair.checkout();
+                Safair.merge(FastJet, "Member profile init 20 Jun 2017")
+
+                FastJet.checkout();
+                var Flybondi = gitGraph.branch("Flybondi");
+                Flybondi.commit("Copy FastJet 26 June 2017");
+
+                FastJet.checkout();
+                var FlyVLM = gitGraph.branch("FlyVLM");
+                FlyVLM.commit("Copy FastJet 26 June 2017");
+
+                FastJet.checkout();
+                FastJet.commit("Member profile done 30 Jun 2017")
+
+                FastJet.checkout();
+                var Arkia = gitGraph.branch("Arkia");
+                Arkia.commit("Copy FastJet 8 Aug 2017");
+
+                FastJet.checkout();
+                FastJet.merge(AirBelgium, "Big merge from FastJet Sep 2017");
+
+                FastJet.checkout();
+
+
+
+
+                // Advanced commit method with style and specific author (HEAD)
+
+
+                /***********************
+                 *      CHECKOUT       *
+                 ***********************/
+
+                // Checkout on master branch for create "test" since master
+                //master.checkout();
+
+                /***********************
+                 *       DETAILS       *
+                 ***********************/
+                /*
+                var commitWithDetailsConfig = {
+                  message: "test",
+                  detail: "detail" // Id of detail div (available in normal vertical mode only)
+                };
+                gitGraph.commit(commitWithDetailsConfig).commit();
+                dev.commit().commit(); // 2 default Commit on "dev"
+                */
+                /***********************
+                 *    CUSTOMIZATION    *
+                 ***********************/
+
+
+
+                /***********************
+                 *       MERGES        *
+                 ***********************/
+
+                //master.checkout();
+
+                // Merge "dev" branch into HEAD (which is "master"), with a default message
+                //dev.merge();
+
+                // Create a "test" branch and merge in into "master" with a custom message and tag.
+                //var test = gitGraph.branch("test");
+                //test.commit("Final commit");
+                //test.merge(master, "My special merge commit message");
+
+                // Then, continue committing on the "test" branch
+                //test.commit({
+                //    message: "It works !"
+                //});
+
+                /***********************
+                 *        TAGS         *
+                 ***********************/
+
+                // Add a tag to a commit
+                //test.commit({
+                //    message: "Here you can see something",
+                //    tag: "a-tag"
+                //});
+
+                // Perform a merge, with a tag
+                //test.merge(master, {
+                //    message: "New release",
+                //    tag: "v1.0.0"
+                //});
+
+
+                /***********************
+                 *       EVENTS        *
+                 ***********************/
+
+                //gitGraph.canvas.addEventListener("commit:mouseover", function(event) {
+                //    console.log("You're over a commit.", "Here is a bunch of data ->", event.data);
+                //});
+
+
+
+            } //]]>
+        </script>
+
+
+    </head>
+
+    <body>
+        <canvas id="gitGraph"></canvas>
+
+
+        </div>
+    </body>
+
+</html>
