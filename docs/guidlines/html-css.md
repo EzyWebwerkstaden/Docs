@@ -119,6 +119,21 @@ CSS:
 And remember the "no more than 4 levels" nesting rule. When using BEM, you should keep nesting to a minimum.
 Use descriptive class names/selectors. It's better to have a long-ish selector, than to wonder wtf it's doing.
 
+#### Convert Images to svg and make a font file of it.
+The main cause to convert these to font files is that icons will be easy to use, you will just add a span-elememnt with your icon and you will be able to color it by using variables and much easier to scale without loosing quality. and you can use it with font sizing which also adepts to the screen size so win win.
+
+1. create svg files over the icons you want to create
+2. head to [icomoon iconlibrary helper](https://icomoon.io/app/#/select)
+3. import all files you want to merge together
+4. select all files.
+5. go to the tab for generating font
+6. adjust settings to match the library your creating
+7. download & implement, font is created enjoy
+
+Sources: 
+* https://icomoon.io/app/#/select
+* https://rileymacdonald.ca/2013/10/10/how-to-create-custom-glyphicon-fonts/
+
 
 #### Mobile first
 Always start "designing" for mobile first, and then scale up. This will mean that the browser will skip applying styles that are not relevant for the current viewport size.
