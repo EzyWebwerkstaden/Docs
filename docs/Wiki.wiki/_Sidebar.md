@@ -1,1 +1,0 @@
-[Ezy codestandard](http://code.ezy.se)
