@@ -60,5 +60,57 @@ So en example commit should look like this:
 Here is a good real-world example.  
 ![Realworld](https://cloud.githubusercontent.com/assets/2648767/13316486/96c2d7ec-dbb0-11e5-9017-af5b16845e09.png)  
 
+# How to fix git history(Copy paste repository)
+Get Commit SHA from the first commit in your solution that is broken.
+
+```
+$baseRepo
+$repo
+$repo_B
+$reposFirstCommitsBaseProjectCommit = [SHA]
+```
 
 
+1. Create new Repostiory `$repo_B`
+2. Clone the new created project
+```
+> git clone https://github.com/$project/$repo_B.git
+> cd $repo_B
+```
+3. Add Remote To Repositories you want to merge
+```
+> git remote add $baseRepo $baseProjectUrl
+> git remote add $repo $repoUrl
+> git fetch --all
+```
+4. Rebase in correct order in this case we want to merge the base first and then append the solution
+if there are large conflicts it should be fine to merge changes from the base which i THINK is MINE|LOCAL
+```
+> git checkout $baseRepo/$reposFirstCommitsBaseProjectCommit
+# this will rebase all commits unto the master branch of your repo
+
+> git rebase $repo_B/master
+#resolve conflicts and procceed with git `> git rebase --continue`
+
+you will now be at a detached state so create a branch with all the changes
+> git checkout -b $repo_b/feature/baseProject
+> git checkout master
+> git merge feature/baseProject
+```
+
+5. Rebase change from you project unto your new solution with history
+```
+> git checkout $repo/master
+#this will rebase all commits unto the master branch of your repo
+> git rebase $repo_B/master
+#resolve conflicts and procceed with git `> git rebase --continue`
+
+you will now be at a detached state so create a branch with all the changes
+> git checkout -b $repo_b/feature/repo_changes
+> git checkout master
+> git merge feature/baseProject>
+```
+
+6. push your changes to your $repo_B
+7. rename you $repo to $repo_OLD
+8. rename you new repo $repo_B to $repo
