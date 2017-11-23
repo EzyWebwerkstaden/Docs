@@ -1,0 +1,430 @@
+# Login databases sql.ezyserver.se.
+
+### New SysAdmin (sa account is now disabled)
+* **login: ezyMasterlogin / ?#F3Rppz** 
+
+
+When you need to create a new DB: 
+https://github.com/EzyWebwerkstaden/Wiki/wiki/CREATE-NEW-DB-ON-sql.ezyserver.se
+
+- 24hMeal (MIGRATED)
+  - 24hMeal / SQL14meal
+  - Databaser
+    - 24hmeal
+- AbronHus
+  - AbronHus / SQL14abron
+  - Databaser
+    - Abronhus
+- AD (MIGRATED)
+  - ADuser / ADalladb
+  - Databaser
+    - AD
+    - AD\_Sverige\_intra
+    - AdbildelarN2
+    - AdbildelarN2\_v2 (migrated)
+    - AdKatalog\_AdDNN5dev
+    - AdKatalog\_Excalibur\_car
+    - AdKatalog\_Excalibur\_extern
+    - AdKatalog\_Excalibur\_trans
+    - AdKatalog\_Excalibur\_web
+    - AdKatalog\_Excalibur\_web\_nop
+    - Adsverige
+    - ExcaliburCar
+    - ExcaliburWorking
+- AirBelgium (migrated)
+  - AirBelgium / 8pZc9W^v73e1
+  - Databaser
+    - Airbelgium
+- AirChoiceOne (migrated)
+  - AirChoiceOne / 7KAO0758$C5g
+  - Databaser
+    - AirChoiceOne
+- Airiceland (migrated) 
+  - Airiceland / r94R0\*p\*2Q14
+  - Databaser
+    - AirIcelandRedesign
+    - AirIceland\_Staging
+    - AirIcelandShop
+    - AirIcelandShop\_3\_7\_test
+- AirIndiaExpress (migrated)
+  - AirIndiaExpress / pyA9b7!0o200
+  - Databaser
+    - AirIndiaExpress
+- AppleBayShop (MIGRATED)
+  - AppleBayShop / 47371&amp;n%%zT7
+  - Databaser
+    - AppleBayShop
+- Arkia
+  - Arkia/ Ky73504j#P%p
+  - Databaser
+    - Arkia
+- BoroVks (migrated)
+  - BoroVks / ZmT365E$6477
+  - Databaser
+    - BorohusN2
+    - Borovast
+- Britanniaairways (MIGRATED)
+  - Britanniaairways / 3%4@4KVo5Bw2
+  - Databaser
+    - Britanniaairways
+- CaribbeanAirlines
+  - CaribbeanAirlines / 97O9mOD1%tf5
+  - Databaser
+    - CaribbeanAirlines
+- CorpShuttle
+  - CorpShuttle / 4070Fv^ybB50
+  - Databaser
+    - CorpShuttle
+- DeccanAir
+  - DeccanAir / Maw!fkbBVZ6R
+  - Databaser
+    - DeccanAir
+- DubaiInStyle
+  - DubaiInStyle / qg0W9Hv9W!54
+  - Databaser
+    - DubaiInStyle
+- Euromaster (MIGRATED)
+  - EuroUser / T7A57x6h1^ti
+  - Databaser
+    - EUALSSE
+    - EuroElsDE
+    - EuroElsDK
+    - EuroElsSe
+    - Euromaster
+    - EuromasterCBS
+    - EuromasterCS
+    - EuromasterIntra
+    - EuromasterPartnerIntra
+    - EuromasterShop
+    - EuromasterShopLive
+    - partnereuromaster
+- ExclusiveTours
+  - ExclusiveTours / 690W1!wNpB3M
+  - Databaser
+    - ExclusiveTours
+- Ezy
+  - EzySite / 7\*5296M3DFlw
+  - Databaser
+    - Ezy
+    - EzySite
+    - EzyN2Base
+    - EzyMultiShop
+- ezyApp
+  - ezyApp / 36z0iT4Zw$41
+  - databaser
+    - ezyApp
+- EzyChat
+  - EzyChat / w4e20G%58NbB
+  - Databaser
+    - EzyChat
+- EzyFlight
+  - ezyFlight / 597aG3D@OKl2
+  - databaser
+    - ezyFlight
+    - ezyFlightApi
+    - ezyFlightApi\_BLG
+    - ezyFlightApi\_IQ
+    - ezyFlightApi\_SMP
+    - ezyFlightApi\_WNG
+    - ezyFlightDashboard
+- ezyHolidayRentals
+  - ezyHolidayRentals / 68J%%7QA8V1j
+  - databaser
+    - ezyHolidayRentals
+    - ferieHus
+- ezyHotels
+  - ezyHotels / x612426!wYZ6
+  - databaser
+    - ezyHotels
+- ezyRadixx
+  - ezyRadixx / 0057S$%l4\*Ue
+  - databaser
+    - ezyRadixx
+    - ezyRadixxChina
+    - ezyRadixxNewTest
+- ezySales
+  - ezySales / 20@En9w1nY8u
+  - databaser
+    - ezySales
+    - ezySalesEngine
+    - ezySalesEngine\_Test
+    - ezySalesEngine2
+- FastJet (migrated)
+  - FastJet / 0i07vP%4^a02
+  - Databaser
+    - FastJet
+- FlyAfrica
+  - FlyAfrica / 9a32x#8Rt6a1
+  - Databaser
+    - FlyAfrica
+- FlyBondi
+  - FlyBondi / uAx9b7!0oZ30 (was _zo84^i9O&amp;38p_)
+  - Databaser
+    - FlyBondi
+- FlyStarbow
+  - FlyStarbow / 29G#UzA799u
+  - Databaser
+    - FlyStarbow
+- FlyVLM
+  - FlyVLM/ 9i09#*6Q5j5W
+  - Databaser
+    - FlyVLM
+- GoAir
+  - GoAir / qm%X4P76N694
+  - Databaser
+    - GoAir
+- HelpdeskTravelTest
+  - HelpdeskTravelTest / $D6Zh&amp;8mK161
+  - Databaser
+    - HelpdeskTravelTest
+- Hotelreservation
+  - Hotelreservation / 5@38D489PFJs
+  - Databaser
+    - Hotelreservation
+- IntraTnnTest
+  - IntraTnnTest / Mz33i4X2\*8I5
+  - Databaser
+    - IntraTnnTest
+- jbas\_umbraco
+  - jbas\_umbraco / 16S6kO5&amp;6Eg7
+  - databaser
+    - jbas\_umbraco
+- JetSuite (migrated)
+  - JetSuite / 23bP1nU5#7B9
+  - Databaser
+    - JetSuite
+- KamAir (migrated)
+  - KamAir / =h,j8mn)q=n#N6bf
+  - Databaser
+    - KamAir
+- Komikapp (fanns redan)
+  - Komikapp / skall uppdateras här.
+  - Databaser
+    - Komikapp
+    - Kom-i-kapp
+    - Komikapp-nop
+- Landsfakta
+  - Landsfakta / 10Q0\*B$f7C4s
+  - Databaser
+    - Landsfakta
+
+- LatinAmericanWings (migrated)
+  - LatinAmericanWings / 5p0Jh$9936Kk  
+  - Databaser
+    - LatinAmericanWings
+- Mango (migrated)
+  - Mango / hSH3nW42@9b9
+  - Databaser
+    - Mango
+    - MangoN2
+    - MangoN2Responsive
+- MarkplaneringN2
+  - MarkplaneringN2 / y54w%z784HZs
+  - Databaser
+    - MarkplaneringN2
+- MokuleleAirlines (migrated)
+  - MokuleleAirlines / 0Z9vG456c@#W
+  - Databaser
+    - MokuleleAirlines
+- Mullsjo
+  - Mullsjo / YWT97F^cy828
+  - Databaser
+    - Mullsjo
+- MyTrip
+  - MyTrip / 3$T6j0Q79GbM
+  - Databaser
+    - MyTrip
+- NatureAir (migrated)
+  - NatureAir / 4L2y2P!iUB40
+  - Databaser
+    - NatureAir
+- OlkaSportResor (migrated)
+  - OlkaSportResor / 824tLB3\*#Ok8
+  - Databaser
+    - OlkaSportResor
+- OneJet (migrated)
+  - OneJet / \*331gB#62m14
+  - Databaser
+    - OneJet
+- Peach (migrated)
+  - Peach / 3i8O87%PY163
+  - Databaser
+    - Peach
+- Pickering
+  - Pickering / wj580C16Qk!3
+  - Databaser
+    - Pickering
+- Pullmantur (migrated)
+  - Pullmantur / km4Uq96Z\*755
+  - Databaser
+    - Pullmantur
+- QazaqAir (migrated)
+  - QazaqAir / 19s8wkpR2%41
+  - Databaser
+    - QazaqAir
+- Qontenta
+  - Qontenta / 3i8O87%PY163
+  - Databaser
+    - PersonalhandbokenQontenta
+    - PersonalhandbokenTholinlarsson
+    - QontentaGateway
+    - Quontenta
+- Rarotonga (migrated)
+  - Rarotonga / 95D8^YiL^D68
+  - Databaser
+    - Rarotonga
+- Rccl20
+  - Rccl20 / G8sn4%Gk142s
+  - Databaser
+    - Rccl20
+    - RcclDubai
+    - RcclDubai
+    - RcclN2\_Havard
+    - RcclN2\_Local
+    - RcclN2\_Production
+    - RcclN2\_Production\_new
+- Resebloggen
+  - Resebloggen / 8j$54BR9$A6h
+  - Databaser
+    - Resebloggen
+- Resevaruhuset
+  - Resevaruhuset / 7ZY997!E2Z0i
+  - Databaser
+    - Resevaruhuset
+- Reskoll
+  - Reskoll / 7kZ9W17X\*5Vb
+  - Databaser
+    - Reskoll
+- RssFeeds
+  - Ej satt
+- Safair (migrated) 
+  - Safair / P10B#5vT1n0$
+  - Databaser
+    - Safair
+    - Safair.FlightStatus
+    - Safair\_Blog
+    - Safair\_DarkSite
+    - Safair\_NserviceBus
+    - Safair\_NServiceBus\_Saga
+    - SafairJiraExport
+    - SafairRedesignProd
+- Saltour
+  - Saltour / k67pP^a5n\*02
+  - Databaser
+    - Saltour
+- Serene (migrated)
+  - Serene /n5d09TE137*2
+  - databaser
+    -Serene
+- SeiNews
+  - SeiNews / 10aX0332$!Zz
+  - Databaser
+    - SeiNews
+- SkreaVandrarhem
+  - SkreaVandrarhem / $V4b54hF0$6t
+  - Databaser
+    - SkreaVandrarhem
+- SkyAir (migrated)
+  - SkyAir / 4oV7Ln01F7b
+  - Databaser
+    - SkyAir
+- Skywise
+  - Skywise / 5Uz6n901kI\*d
+  - Databaser
+    - Skywise
+- SmallPlanetAirlines (migrated)
+  - SmallPlanetAirlines / Nii^718$8C9\*
+  - Databaser
+    - SmallPlanetAirlines
+    - SmallPlanetAirlinesProduction
+- Sorbet
+  - Sorbet / Sp99e8^vP3a0
+  - Databaser
+    - Sorbet
+- Stobart
+  - Stobart / 7C!65O256y#\*
+  - Databaser
+    - Stobart
+- Spotquiz
+  - Ej satt
+- Swansons
+  - Swansons / Eb8^^96%f1y8
+  - Databaser
+    - Swansons
+- SvenskaResebolaget
+  - SvenskaResebolaget / 90s#54#@3qCc
+  - Databaser
+    - SvenskaResebolaget
+- TacvAirlines
+  - TacvAirlines / 41^84sM!1a3i
+  - Databaser
+    - TacvAirlines
+- TeamCity
+  - TeamCity / FrA%6B463j29
+  - Databaser
+    - TeamCity
+- TranvelnetGroup
+  - TranvelnetGroup / K@x5gFF3J866
+  - Databaser
+    - TranvelnetGroup
+- Travelstart
+  - Används ej.
+- TurkeyInStyle
+  - TurkeyInStyle / j8P%3411jQkg
+  - Databaser
+    - TurkeyInStyle
+- TvaakersMarkisen
+  - TvaakersMarkisen / 16sV0r60j#7j
+  - Databaser
+    - TvaakersMarkisen
+- VarbergEvent
+  - VarbergEvent / 3597D43$1Vb@
+  - Databaser
+    - VarbergEvent
+- VartexMobile
+  - VartexMobile / I612h^67g36w
+  - Databaser
+    - VartexMobile
+- WatchItLive
+  - WatchItLive / 213O0$O!ci!5
+  - Databaser
+    - WatchItLive .v2
+- Webbhus
+  - Webbhus / 2jG78Ydf56#1
+  - Databaser
+    - Webbhus
+- WICCommerce
+  - WICCommerce / g9y30dK%D$86
+  - Databaser
+    - WICCommerce
+- VietJetAir
+  - VietJetAir / 3p21Ba%2G44X
+  - Databaser
+    - VietJetAir
+- WILN2
+  - Ej satt
+- Wingo (migrated)
+  - Wingo / 4TvG974eCl4
+  - Databaser
+    - Wingo
+- Viva (migrated)
+  - Viva / 38b9sYrT1!b6
+  - Databaser
+    - Viva
+    - VivaAir
+    - VivaColombia
+    - VivaColombiaNewPlatform
+    - VivaN2Branch
+    - VivaNavitaire
+- VMInnebandy2014
+  - VMInnebandy2014 / 38b9sYrT1!b6
+  - Databaser
+    - VMInnebandy2014
+- WowAir (migrated)
+  - WowAir /16FY4F^0Cc2c
+  - Databaser
+    - WowAir
+- wwClients
+  - wwClients / 63Cl5O^C1329
+  - databaser
+    - wwClients
