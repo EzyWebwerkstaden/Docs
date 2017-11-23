@@ -71,19 +71,19 @@ $reposFirstCommitsBaseProjectCommit = [SHA]
 ```
 
 
-1. Create new Repostiory `$repo_B`
-2. Clone the new created project
+- Create new Repostiory `$repo_B`
+- Clone the new created project
 ```
 > git clone https://github.com/$project/$repo_B.git
 > cd $repo_B
 ```
-3. Add Remote To Repositories you want to merge
+- Add Remote To Repositories you want to merge
 ```
 > git remote add $baseRepo $baseProjectUrl
 > git remote add $repo $repoUrl
 > git fetch --all
 ```
-4. Rebase in correct order in this case we want to merge the base first and then append the solution
+- Rebase in correct order in this case we want to merge the base first and then append the solution
 if there are large conflicts it should be fine to merge changes from the base which i THINK is MINE|LOCAL
 ```
 > git checkout $baseRepo/$reposFirstCommitsBaseProjectCommit
@@ -98,7 +98,7 @@ you will now be at a detached state so create a branch with all the changes
 > git merge feature/baseProject
 ```
 
-5. Rebase change from you project unto your new solution with history
+- Rebase change from you project unto your new solution with history
 ```
 > git checkout $repo/master
 #this will rebase all commits unto the master branch of your repo
@@ -111,6 +111,6 @@ you will now be at a detached state so create a branch with all the changes
 > git merge feature/baseProject>
 ```
 
-6. push your changes to your $repo_B
-7. rename you $repo to $repo_OLD
-8. rename you new repo $repo_B to $repo
+- push your changes to your $repo_B
+- rename you $repo to $repo_OLD
+- rename you new repo $repo_B to $repo
