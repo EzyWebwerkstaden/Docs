@@ -167,3 +167,41 @@ LESS:
 
 #### LESS Selector order
 To increase readability and navigation of your code, you might want to consider ordering your CSS classes/selectors in the same way they appear on screen. Might not always be applicable due to different layouts in different viewport sizes. But normally it's good practice to use mobile first order as a basic template. Example 1 uses this approach.
+
+
+### Remove css change on git
+
+To remove the issue with css files conflicting in git you have to follow these instructions.
+
+1)  remove all GENERATED css files in styles/ directory or which folder is you main output folder.
+i did compile less files trough gulp and with a sourcemap then i could se which files that has been generated, you should be able to find out which is compiled through just running the compile-less job
+
+why we need to remove the files is that we need to remove them from being tracked so we dont get any diffs when working with the less files.
+2)  head to visual studio and exclude the entire styles folder, save the project file after.
+3)  head into edit mode in you csproj file and add the following
+
+```
+<Project>
+
+   <ItemGroup>
+      <Content Include="Styles\\**\\*" />
+   </ItemGroup>
+
+```
+What this does is that it tells the build/compiler to include these files in this case all files in the styles folder
+
+4) add gitignore for GENERATED FILES
+This is only an example how to remove
+
+```
+**/Styles/*.css
+
+# manual files that are generated
+Web.Application/Styles/file.css
+
+
+```
+5) Verify that you build has npm or gulp buildstep. mine didnt have it, so i exclusivly added it to my project.
+
+## Sources
+634a40baca65518c5a9f785a32b855cc613c2d25
