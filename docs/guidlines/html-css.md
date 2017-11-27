@@ -203,5 +203,5 @@ Web.Application/Styles/file.css
 ```
 5) Verify that you build has npm or gulp build step. mine didn´t have it, so i exclusively added it to my project.
 
-#### Sources
+** Sources **
 634a40baca65518c5a9f785a32b855cc613c2d25
