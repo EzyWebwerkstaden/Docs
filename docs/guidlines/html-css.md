@@ -169,7 +169,7 @@ LESS:
 To increase readability and navigation of your code, you might want to consider ordering your CSS classes/selectors in the same way they appear on screen. Might not always be applicable due to different layouts in different viewport sizes. But normally it's good practice to use mobile first order as a basic template. Example 1 uses this approach.
 
 
-### Remove css change on git
+### GULP/LESS Git conflicts on css files when bundling
 
 To remove the issue with css files conflicting in git you have to follow these instructions.
 
@@ -191,7 +191,7 @@ why we need to remove the files is that we need to remove them from being tracke
 What this does is that it tells the build/compiler to include these files in this case all files in the styles folder
 
 4) add gitignore for GENERATED FILES
-This is only an example how to remove
+This is only an example how to remove, so adjust according to you project.
 
 ```
 **/Styles/*.css
@@ -201,7 +201,7 @@ Web.Application/Styles/file.css
 
 
 ```
-5) Verify that you build has npm or gulp buildstep. mine didnt have it, so i exclusivly added it to my project.
+5) Verify that you build has npm or gulp build step. mine didn´t have it, so i exclusively added it to my project.
 
-## Sources
+#### Sources
 634a40baca65518c5a9f785a32b855cc613c2d25
