@@ -184,7 +184,7 @@ why we need to remove the files is that we need to remove them from being tracke
 <Project>
 
    <ItemGroup>
-      <Content Include="Styles\\**\\*" />
+      <Content Include="Styles\**\*" />
    </ItemGroup>
 
 ```
