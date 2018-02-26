@@ -12,7 +12,7 @@ When commenting/requesting changes on a pull request, you should tag your messag
 
 - 🐛 `:bug:` Something that is critical to fix before merging. Most likely a bug or code that does not meet the requirements of the task.
 - 🏭 `:factory:` Something that is suggested to change, but not critical for the task. Could be code refactoring, performance improvements etc.
-- ❗ `:exclamation:` Something that could be considered for the future. It could be something that is not feasible to change or may require additional knowledge or research from the developer.
+- ✨ `:sparkles:` Something that could be considered for the future. It could be something that is not feasible to change or may require additional knowledge or research from the developer.
 
 ### Branch strategy
 
