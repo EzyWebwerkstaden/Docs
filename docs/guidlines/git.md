@@ -14,6 +14,13 @@ When commenting/requesting changes on a pull request, you should tag your messag
 - 🏭 `:factory:` Something that is suggested to change, but not critical for the task. Could be code refactoring, performance improvements etc.
 - ✨ `:sparkles:` Something that could be considered for the future. It could be something that is not feasible to change or may require additional knowledge or research from the developer.
 
+General ideas for a code review:
+
+- Check for typos in variables and functions names
+- Check code structure: no long functions, no long if-statements, not many in-parameters in functions
+- Check code logic: is code easy to read and understand what it does? i.e. many small functions with good names, moving out code to own service.
+
+
 ### Branch strategy
 
 * Using the [Github workflow] (https://guides.github.com/introduction/flow/)
