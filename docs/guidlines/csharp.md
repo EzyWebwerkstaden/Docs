@@ -63,3 +63,9 @@ The source code can be found here: [Ezy.Security on Github](https://github.com/E
 For encryption we will use Aes256 with salt.
 This is impelemented in our Ezy.Security nuget. (TODO: Link to nuget) 
 The source code can be found here: [Ezy.Security on Github](https://github.com/EzyWebwerkstaden/Security)
+
+### Code review guidelines
+
+- Check for typos in variables and functions names
+- Check code structure: no long functions, no long if-statements, not many in-parameters in functions
+- Check code logic: is code easy to read and understand what it does? i.e. many small functions with good names, moving out code to own service.
