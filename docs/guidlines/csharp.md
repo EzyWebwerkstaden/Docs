@@ -63,3 +63,30 @@ The source code can be found here: [Ezy.Security on Github](https://github.com/E
 For encryption we will use Aes256 with salt.
 This is impelemented in our Ezy.Security nuget. (TODO: Link to nuget) 
 The source code can be found here: [Ezy.Security on Github](https://github.com/EzyWebwerkstaden/Security)
+
+
+###Unit tests
+We use NUnit as testing framework. 
+  
+Naming standard:  
+[UnitOfWork_StateUnderTest_ExpectedBehavior]   
+  
+Examples:  
+PaymentAuthorization_NoPaymentLogFound_ReturnsError  
+PaymentReversal_Success_CallingGetLatestPaymentStatus  
+
+
+Test structure:
+```
+[Test]
+public void UnitOfWork_StateUnderTest_ExpectedBehavior()
+{
+    //arrange
+  
+    //act
+    
+    //assert
+}
+```
+
+
